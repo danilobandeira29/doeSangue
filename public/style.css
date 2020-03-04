@@ -1,0 +1,212 @@
+/* GLOBAL */
+*{
+    box-sizing: border-box;
+}
+/* Remover espaços que o próprio navegador coloca*/
+html, body{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera 
+::-webkit-scrollbar{
+    display:none
+}
+*/
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    height: 100vh;
+    
+    
+    font-family: 'Roboto', sans-serif;
+    
+    /*limites dos elementos na pagina*/
+      
+    /* Hide scrollbar for IE and Edge */
+    
+    -ms-overflow-style: none;
+
+    /*deixa o scroll sempre visivel*/
+    overflow-y:scroll;
+}
+
+
+
+h1, h2{
+    color: #000000ee;
+}
+header, .form, main{
+    text-align: center;
+
+    width: 90%;
+    /*tentará aplicar sempre os 90%
+    ao passar, ira ficar com tamanho fixo de 500px*/
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto 70px auto;
+    
+    
+}
+
+
+/* HEADER */
+
+/* Imagem logo */
+header img.logo{
+    width: 120px;
+    margin: 70px  0;
+}
+
+header button{
+
+    padding: 8px 16px;
+    margin-top: 16px;
+
+    font-weight: bold;
+    background-color: #ff4f4f;
+    color: white;
+
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+header h1, main h2{
+    margin-bottom: 70px;
+}
+
+header p{
+    font-size: 14px;
+}
+/* FORM */
+section#formulario{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   /*espaçamento entre as colunas da grid*/
+   grid-gap: 45px;
+
+   background-color: #ff4f4f;
+
+   padding: 16px 64px;
+
+   border-radius: 6px;
+
+   align-items: center;
+   font-size: 18px;
+
+
+}
+
+section#formulario h2{
+    color:white;
+    text-align: right;
+    font-size: 18px;
+    /*margin-right: 70px ; nao utilizar o margin, utilizar o gap*/
+
+}
+
+section#formulario input, section#formulario button{
+    /*largura*/
+    width: 100%;
+
+    /*espaçamento*/
+    margin-bottom: 4px;
+    
+    /*preenchimento*/
+    padding: 10px 16px;
+
+    /*bordas*/
+    border: 1px solid #ffffff88;
+    border-radius: 4px;
+    
+    outline:none;
+}
+
+section input{
+    background-color: transparent;
+}
+
+section#formulario input::placeholder{
+    color: #ffffffbb;
+}
+section#formulario button{
+    background-color: #ffffffee;
+    font-weight: bold;
+
+    
+}
+
+button{
+    cursor: pointer;
+}
+
+/* MAIN */
+.donors{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+main span, main .blood{
+    color: #ff4f4f;
+}
+
+
+.blood{
+    font-weight: bold;
+    font-size: 12px;
+
+    display: flex; /*para exibir o before*/
+
+    /*centralizar, tanto no eixo x como no eixo y (justify-content)*/
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.blood::before{
+    content: '';
+    background-color: #e6e6e655;
+    
+    width:40px;
+    height: 40px;
+    
+    position: absolute;
+    
+    /*fazer a gota*/
+    border-radius: 50%;
+    border-top-left-radius: 0;
+    transform: rotate(45deg);
+}
+.donor p{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 49px;
+}
+footer{
+    border: 1px solid #eee;
+    padding: 16px;
+    text-align: center;
+    margin-top: auto;
+}
+section.form{
+    transition: all 300ms;
+}
+/* funcionalidades com javascript*/
+section.form.hide{
+    /*apenas com o opacity ainda é possível clicar nos elementos*/
+    opacity: 0;
+
+    /*com o visibility hidden não é mais possível*/
+    visibility: hidden;
+
+    /*tirando altura e margin*/
+    height: 0;
+    margin-top: -70px;
+
+    
+}
+
+
