@@ -1,5 +1,5 @@
 # DOE SANGUE
-Projeto realizado no MaratonaDev03
+Projeto realizado no MaratonaDev03, Rocketseat
 
 # Descrição
 Cadastro de doador de sangue, onde são informados: Nome, Email e o Tipo sanguíneo do doador.
