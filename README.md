@@ -47,15 +47,15 @@ Com o PostgreSQL instalado:
 
 # Setando o Banco de dados na aplicação
 - Abra o arquivo **server.js** e procure por está linha:
-```
-const db = new Pool({
-    user: 'postgres',
-    password: 'insira-sua-senha',
-    host: 'localhost',
-    port: 5432,
-    database: 'doe'
-})
-```
+  ```
+  const db = new Pool({
+      user: 'postgres',
+      password: 'insira-sua-senha',
+      host: 'localhost',
+      port: 5432,
+      database: 'doe'
+  })
+  ```
 - No campo **password**, insira sua senha de usuario entra aspas. Exemplo: **'0000'**
 
      *Altere os itens **user**, **port**, **database**, de acordo com a necessidade requirida pelo seu acesso ao PostgreSQL*
