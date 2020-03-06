@@ -31,7 +31,7 @@ Com o PostgreSQL instalado:
  - No campo **Database**, inserir o nome para o banco, neste caso **doe**
  - No campo **Owner**, o usuario **postgres**. Clique em **Save** e pronto, o banco de dados está criado
  
- *Altere o campo **Owner** de acordo com seu usuário ou necessidade*
+      *Altere o campo **Owner** de acordo com seu usuário ou necessidade*
  - Agora clique com o botão direito no banco **doe**, selecione **Query Tool...** e insira o comando: 
    ```
    CREATE TABLE donors(
@@ -58,7 +58,7 @@ const db = new Pool({
 ```
 - No campo **password**, insira sua senha de usuario entra aspas. Exemplo: **'0000'**
 
-*Altere os itens 'user', 'port', 'database', de acordo com a necessidade requirida pelo seu acesso ao PostgreSQL*
+     *Altere os itens **user**, **port**, **database**, de acordo com a necessidade requirida pelo seu acesso ao PostgreSQL*
 - Com as alterações necessárias feitas, basta salvar.
 
 
