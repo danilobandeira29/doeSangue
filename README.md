@@ -48,7 +48,7 @@ const db = new Pool({
 ```
 - No campo 'password', insira sua senha de usuario entra aspas. Exemplo: '0000'
 
-*Altere os itens 'user', 'port', 'database', de acordo com a necessidade requirida pelo seu acesso no PostgreSQL*
+*Altere os itens 'user', 'port', 'database', de acordo com a necessidade requirida pelo seu acesso ao PostgreSQL*
 - Com as alterações necessárias feitas, basta salvar.
 
 # Inicialização da aplicação
