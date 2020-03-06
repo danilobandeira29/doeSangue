@@ -1,7 +1,7 @@
 # DOE SANGUE
 Projeto realizado no MaratonaDev03, Rocketseat
 
-# Visualição da aplicação
+# Demo da aplicação
 https://www.youtube.com/watch?v=2FUKIQ6BYiE&feature=youtu.be
 
 # Descrição
