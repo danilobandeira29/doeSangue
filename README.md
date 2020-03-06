@@ -25,7 +25,7 @@ Cadastro de doador de sangue, onde são informados:
 
 
 # Criando Banco de Dados PostgreSQL
-Com o PostgreSQL já instalado:
+Com o PostgreSQL instalado:
  - Abra o pgAdmin 4(versão utilizada na criação da aplicação)
  - Acesse no menu lateral os itens **Servers** > **PostgreSQL** > **Database**, clique com o botão direito sobre ela e selecione **Create** em seguida 'Database...'
  - No campo 'Database', inserir o nome para o banco, neste caso **doe**.
