@@ -5,7 +5,10 @@ Projeto realizado no MaratonaDev03, Rocketseat
 [Youtube](https://www.youtube.com/watch?v=2FUKIQ6BYiE&feature=youtu.be)
 
 # Descrição
-Cadastro de doador de sangue, onde são informados: Nome, Email e o Tipo sanguíneo do doador.
+Cadastro de doador de sangue, onde são informados:
+- Nome
+- Email
+- Tipo sanguíneo
 
 # Tecnologias utilizadas
 - HTML
