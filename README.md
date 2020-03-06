@@ -22,8 +22,10 @@ Cadastro de doador de sangue, onde são informados: Nome, Email e o Tipo sanguí
 Com o PostgreSQL já instalado:
  - Abra o pgAdmin 4(versão utilizada na criação da aplicação)
  - Acesse no menu lateral os itens **Servers** > **PostgreSQL** > **Database**, clique com o botão direito sobre ela e selecione **Create** em seguida 'Database...'
- - No campo 'Database', inserir o nome para o banco, neste caso **doe**. E no campo **Owner**, o usuario **postgres**. Clique em **Save** e pronto, o banco de dados está criado
- - Clique com o botão direito no banco **doe**, selecione **Query Tool...** e insira o comando: 
+ - No campo 'Database', inserir o nome para o banco, neste caso **doe**.
+ - No campo **Owner**, o usuario **postgres**. Clique em **Save** e pronto, o banco de dados está criado
+ *Altere o campo **Owner** de acordo com seu usuário ou necessidade*
+ - Agora clique com o botão direito no banco **doe**, selecione **Query Tool...** e insira o comando: 
    ```
    CREATE TABLE donors(
       id SERIAL NOT NULL,
