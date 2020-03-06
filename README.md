@@ -4,11 +4,13 @@ Projeto realizado no MaratonaDev03, Rocketseat
 # Demo da aplicação
 [Youtube](https://www.youtube.com/watch?v=2FUKIQ6BYiE&feature=youtu.be)
 
+
 # Descrição
 Cadastro de doador de sangue, onde são informados:
 - Nome
 - Email
 - Tipo sanguíneo
+
 
 # Tecnologias utilizadas
 - HTML
@@ -20,6 +22,7 @@ Cadastro de doador de sangue, onde são informados:
 - Nodemon
 - PostgreSQL
 - Postbird
+
 
 # Criando Banco de Dados PostgreSQL
 Com o PostgreSQL já instalado:
@@ -39,6 +42,7 @@ Com o PostgreSQL já instalado:
    ```
   
   - logo em seguida clique em **executar** ou pressione **F5**
+  
 
 # Setando o Banco de dados na aplicação
 - Abra o arquivo **server.js** e procure por está linha:
@@ -55,6 +59,7 @@ const db = new Pool({
 
 *Altere os itens 'user', 'port', 'database', de acordo com a necessidade requirida pelo seu acesso ao PostgreSQL*
 - Com as alterações necessárias feitas, basta salvar.
+
 
 # Inicialização da aplicação
   Vá ao terminal node e utilize **npm start** para iniciar o servidor. Com o servidor já inicializado, basta ir ao navegador e acessar http://localhost:3000/
