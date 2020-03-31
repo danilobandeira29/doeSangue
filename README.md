@@ -23,8 +23,19 @@ Cadastro de doador de sangue, onde são informados:
 - PostgreSQL
 - Postbird
 
+# Dependências
+No arquivo <em>package.json</em> localizado na pasta raíz, contém no campo <em>"dependencies"</em> todas as dependências para executar a aplicação.
 
-# Criando Banco de Dados PostgreSQL
+```
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "nunjucks": "^3.2.0",
+    "pg": "^7.18.2"
+  }
+```
+# Tutorial para configuração de algumas dependências
+## Criando Banco de Dados PostgreSQL
 Com o PostgreSQL instalado:
  - Abra o pgAdmin 4(versão utilizada na criação da aplicação)
  - Acesse no menu lateral os itens: **Servers** > **PostgreSQL** > **Database**, clique com o botão direito sobre ele, selecione **Create** e em seguida **Database...**
@@ -45,7 +56,7 @@ Com o PostgreSQL instalado:
   - logo em seguida clique em **executar** ou pressione **F5**
   
 
-# Setando o Banco de dados na aplicação
+## Setando o Banco de dados na aplicação
 - Abra o arquivo **server.js** e procure por está linha:
   ```
   const db = new Pool({
@@ -62,7 +73,7 @@ Com o PostgreSQL instalado:
 - Com as alterações necessárias feitas, basta salvar.
 
 
-# Inicialização da aplicação
+## Inicialização da aplicação
   Vá ao terminal node e utilize **npm start** para iniciar o servidor. Com o servidor já inicializado, basta ir ao navegador e acessar http://localhost:3000/
   
   *Verifique se o diretório do terminal está de acordo com o diretório da aplicação*
