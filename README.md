@@ -73,7 +73,7 @@ Com o PostgreSQL instalado:
 - Com as alterações necessárias feitas, basta salvar.
 
 
-## Inicialização da aplicação
+# Inicialização da aplicação
   Vá ao terminal node e utilize **npm start** para iniciar o servidor. Com o servidor já inicializado, basta ir ao navegador e acessar http://localhost:3000/
   
   *Verifique se o diretório do terminal está de acordo com o diretório da aplicação*
